@@ -1,7 +1,5 @@
 # Evaluating the Robustness of AI-Based PII Detection for Secure LLM Input
 
-CSCI 493 course project (Hunter College, CUNY) by **Wendy Zheng** and **Angela Guo**.
-
 People paste work text into AI tools, and that text can contain names, email addresses, usernames and organizations. This project tests how well PII (personally identifiable information) detectors protect that text *before* it reaches an LLM, especially when the PII is deliberately disguised.
 
 ## Goals
