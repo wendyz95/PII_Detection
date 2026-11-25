@@ -52,14 +52,6 @@ Can a pretrained PII detector (Piiranha) protect sensitive information in workpl
 
 Piiranha has no organization label, so organizations are reported as *unsupported* rather than counted against its precision and recall.
 
-### Architecture
-
-The **model** is Piiranha. The **AI system** is the whole pipeline around it (the dashed box in the diagram).
-
-![Architecture diagram](results/architecture_diagram.png)
-
-*(The notebook saves this image to `results/` when it runs.)*
-
 ### Symbolic constraint layer (CSP)
 
 Piiranha is a learned model, so it can be wrong in ways nobody wrote down. The constraint layer adds explicit, hand-written rules *after* Piiranha so that its detections can be checked, repaired and cleaned up. It is the "symbolic" half of the hybrid.
