@@ -1,0 +1,15 @@
+Condition,System,Scope,Gold,TP,FP,FN,Precision,Recall,F1,FN rate,Protected,Leaked,Protection rate
+Normal,Piiranha,Email only,128,114,7,14,0.9421487603305785,0.890625,0.9156626506024097,0.109375,97,31,0.7578125
+Normal,Regex,Email only,128,128,0,0,1.0,1.0,1.0,0.0,128,0,1.0
+Spacing,Piiranha,Email only,128,114,6,14,0.95,0.890625,0.9193548387096774,0.109375,97,31,0.7578125
+Spacing,Regex,Email only,128,128,0,0,1.0,1.0,1.0,0.0,128,0,1.0
+Email format,Piiranha,Email only,128,6,3,122,0.6666666666666666,0.046875,0.08759124087591241,0.953125,31,97,0.2421875
+Email format,Regex,Email only,128,0,0,128,,0.0,0.0,1.0,0,128,0.0
+Long context,Piiranha,Email only,128,119,7,9,0.9444444444444444,0.9296875,0.937007874015748,0.0703125,97,31,0.7578125
+Long context,Regex,Email only,128,128,0,0,1.0,1.0,1.0,0.0,128,0,1.0
+Character noise,Piiranha,Email only,128,100,5,28,0.9523809523809523,0.78125,0.8583690987124463,0.21875,95,33,0.7421875
+Character noise,Regex,Email only,128,0,0,128,,0.0,0.0,1.0,0,128,0.0
+Held-out: defanged,Piiranha,Email only,128,96,122,32,0.44036697247706424,0.75,0.5549132947976879,0.25,32,96,0.25
+Held-out: defanged,Regex,Email only,128,0,0,128,,0.0,0.0,1.0,0,128,0.0
+Held-out: homoglyph,Piiranha,Email only,128,114,4,14,0.9661016949152542,0.890625,0.9268292682926829,0.109375,98,30,0.765625
+Held-out: homoglyph,Regex,Email only,128,128,0,0,1.0,1.0,1.0,0.0,128,0,1.0

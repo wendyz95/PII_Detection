@@ -1,0 +1,8 @@
+Condition,Regex email protection,Regex email leaked,Piiranha email protection,Piiranha email leaked,Piiranha supported-PII protection,Piiranha supported-PII leaked,Piiranha leaked + ORGANIZATION,All PII in scope
+Normal,1.0,0,0.7578125,31,0.44766708701134933,438,510,885
+Spacing,1.0,0,0.7578125,31,0.44766708701134933,438,510,885
+Email format,0.0,128,0.2421875,97,0.35813366960907944,509,581,885
+Long context,1.0,0,0.7578125,31,0.4274905422446406,454,528,885
+Character noise,0.0,128,0.7421875,33,0.424968474148802,456,527,885
+Held-out: defanged,0.0,128,0.25,96,0.3644388398486759,504,575,885
+Held-out: homoglyph,1.0,0,0.765625,30,0.5208070617906684,380,451,885
