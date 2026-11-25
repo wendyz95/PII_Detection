@@ -248,13 +248,6 @@ Use Piiranha plus the recovery rules as a *first layer* before text reaches an L
 - A detector can miss sensitive data. Redaction should be one layer of defence, not a guarantee.
 - The explanation for the weak name and username results (labelled as the wrong type) is a hypothesis that has not been confirmed.
 
-## Future work
-
-- Add exact-span and over-redaction metrics.
-- Inspect the name and username errors to confirm or reject the mislabelling explanation.
-- Test more environments, more runs and more held-out disguises.
-- Make the validity rules tolerant of unknown formats, or only use them to flag rather than reject detections.
-
 ## Repository contents
 
 ```
